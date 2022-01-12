@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Form/Formulario de Pedido</title>
+  <link rel="stylesheet" type="text/css" href="layout.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Order Form/Formulario de Pedido</h1>
+
+    <strong> <p>Complete and click on "Order"</p></strong><br />
+    <strong> <p>Complete y Haga Clic en "Pedido"</p></strong>
+    
+ <form method="post" action="groceries.php">
+      
+     
+     <label for="name">Name/Nombre</label> 
+          <input type="text" id="name" name="name" required/><br /><hr />
+     
+     <label for="idNum">Employee Number/Número de Empleado</label>
+          <input type="text" id="idNum" name="idNum" maxlength="3" required/><br /><hr />
+     
+     <label for="bunkNum">House Number/Número de Casa</label>
+          <input type="text" id="bunkNum" name="bunkNum" maxlength="1" required/><br /><hr />
+     
+     <p>Produce</p><hr />
+     
+     <label for="bananas">Bananas/Plátanos</label>
+     <img src="bananas.png" alt="bananasPic" />
+          <input type="number" min="0" id="bananas" name="bananas" /> <br /><hr />
+    
+     <label for="oranges">Oranges/Naranjas</label>
+     <img src="oranges.png" alt="oranges" />
+          <input type="number" min="0" id="oranges" name="oranges" /><br /><hr />
+     
+     <label for="avacados">Avacados/Aguacates</label> 
+     <img src="avacados.png" alt="avacados" />
+          <input type="number" min="0" id="avacados" name="avacados" /><br /><hr />
+     
+     <label for="pineapple">Pineapple/Piña</label> 
+     <img src="pineapple.png" alt="pineapple" />
+          <input type="number" min="0" id="pineapple" name="pineapple" /><br /><hr />
+     
+     <label for="celery">Celery/Apio</label> 
+      <img src="celery.png" alt="celery" />
+          <input type="number" min="0" id="celery" name="celery" /><br /><hr />
+     
+     <label for="yellowOnions">Yellow Onions/Cebollas Amarillas</label> 
+      <img src="yellowOnions.png" alt="yellowOnions" />
+          <input type="number" min="0" id="yellowOnions" name="yellowOnions" /><br /><hr />
+     
+     <label for="yellowPot">Yellow Potatoes/Papas Amarillas</label> 
+     <img src="yellowPotatoes.jpeg" alt="yellowPot" />
+          <input type="number" min="0" id="yellowPot" name="yellowPot" /><br /><hr />
+     
+     <label for="coriander">Coriander/Cilantro</label> 
+      <img src="cilantro.png" alt="coriander" />
+          <input type="number" min="0" id="coriander" name="coriander" /><br /><hr />
+     
+     <label for="pear">Pear/Chayote</label>
+      <img src="pear.png" alt="pear" />
+          <input type="number" min="0" id="pear" name="pear" /><br /><hr />
+     
+     <label for="thyme">Fresh Thyme/Tomillo Fresco</label> 
+      <img src="thyme.png" alt="thyme" />
+          <input type="number" min="0" id="thyme" name="thyme" /><br /><hr />
+     
+     <label for="papaya">Papaya</label> 
+     <img src="papaya.png" alt="papaya" />
+          <input type="number" min="0" id="papaya" name="papaya" /><br /><hr />
+     
+     <label for="carrots">Carrots/Zanahorias</label> 
+     <img src="carrots.jpeg" alt="carrots" />
+          <input type="number" min="0" id="carrots" name="carrots" /><br /><hr />
+     
+     <label for="plantain">Plantain/Plátano</label> 
+     <img src="plantain.jpeg" alt="plantain" />
+          <input type="number" min="0" id="plantain" name="plantain" /><br /><hr />
+     
+     <label for="lettuce">Lettuce/Lechuga</label> 
+     <img src="lettuce.jpeg" alt="lettuce" />
+          <input type="number" min="0" id="lettuce" name="lettuce" /><br /><hr />
+     
+     <label for="yam">Yam</label> 
+     <img src="yam.jpeg" alt="yam" />
+          <input type="number" min="0" id="yam" name="yam" /><br /><hr />
+     
+     <label for="whitePot">White Potatoes/Papas Blancas</label> 
+     <img src="whitePot.jpeg" alt="whitePot" />
+          <input type="number" min="0" id="whitePot" name="whitePot" /><br /><hr />
+     
+     <label for="brocolli">Brocolli/Brócoli</label> 
+     <img src="brocolli.jpeg" alt="brocolli" />
+          <input type="number" min="0" id="brocolli" name="brocolli" /><br /><hr />
+     
+     <label for="okra">Okra</label> 
+     <img src="okra.jpeg" alt="okra" />
+          <input type="number" min="0" id="okra" name="okra" /><br /><hr />
+     
+     <label for="spinach">Spinach/Espinacas</label> 
+     <img src="spinach.jpeg" alt="spinach" />
+          <input type="number" min="0" id="spinach" name="spinach" /><br /><hr />
+     
+     <label for="apples">Apples/Manzanas</label> 
+     <img src="apples.jpeg" alt="apples" />
+          <input type="number" min="0" id="apples" name="apples" /><br /><hr />
+     
+     <label for="grapes">Grapes/Uvas</label> 
+     <img src="grapes.jpeg" alt="grapes" />
+          <input type="number" min="0" id="grapes" name="grapes" />
+           <select id="grapeType" name="grapeType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Red">Red/Roja</option>
+               <option value="Green">Green/Verde</option>
+               <option value="Purple">Purple/Morada</option>
+           </select><br /><hr />
+     
+     <label for="lemons">Lemons/Limones</label> 
+     <img src="lemons.jpeg" alt="lemons" />
+          <input type="number" min="0" id="lemons" name="lemons" /><br /><hr />
+     
+     <label for="redOnion">Red Onion/Cebolla Roja</label> 
+     <img src="redOnions.jpeg" alt="redOnion" />
+          <input type="number" min="0" id="redOnion" name="redOnion" /><br /><hr />
+     
+     <label for="greenOnion">Green Onion/Cebolla Verde</label> 
+     <img src="greenOnion.jpeg" alt="greenOnion" />
+          <input type="number" min="0" id="greenOnion" name="greenOnion" /><br /><hr />
+     
+     <label for="sweetPot">Sweet Potatoes</label> 
+     <img src="sweetPot.jpeg" alt="sweetPot" />
+          <input type="number" min="0" id="sweetPot" name="sweetPot" /><br /><hr />
+     
+     <label for="cabbage">Cabbage/Repollo</label> 
+     <img src="cabbage.jpeg" alt="cabbage" />
+          <input type="number" min="0" id="cabbage" name="cabbage" /><br /><hr />
+     
+     <p>Bakery</p>
+     
+     <label for="wheatBread">Whole Wheat Sliced Bread/Pan Integral</label> 
+     <img src="wwBread.png" alt="wheatBread" />
+          <input type="number" min="0" id="wheatBread" name="wheatBread" /><br /><hr />
+     
+     <label for="whiteBread">White Sliced Bread/Pan Blanco</label> 
+     <img src="whiteBread.png" alt="whiteBread" />
+          <input type="number" min="0" id="whiteBread" name="whiteBread" /><br /><hr />
+     
+     <label for="marbelLoaf">Mini Marble Loaves/Pan de Mármol</label> 
+     <img src="marbleLoaf.png" alt="marbleLoaf" />
+          <input type="number" min="0" id="marbleLoaf" name="marbleLoaf" /><br /><hr />
+     
+     <label for="goldenLoaf">Mini Golden Loaves/Pan de Oro</label> 
+     <img src="goldenLoaf.png" alt="goldLoaf" />
+          <input type="number" min="0" id="goldenLoaf" name="goldenLoaf" /><br /><hr />
+     
+     <label for="muffins">Chocolate Chip Muffins/Mollete</label> 
+     <img src="muffins.png" alt="muffin" />
+          <input type="number" min="0" id="muffins" name="muffins" /><br /><hr />
+     
+     <label for="spicedBuns">Spiced Buns/Bollos Especiados</label> 
+     <img src="spicedBuns.png" alt="spicedBum" />
+          <input type="number" min="0" id="spicedBuns" name="spicedBuns" />
+            <select id="bunType" name="bunType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Long">Long Type</option>
+               <option value="Round">Round Type</option>
+            </select><br /><hr />
+     
+     <label for="hdBuns">Hot Dog Buns/Pan de Hotdog</label> 
+     <img src="htBuns.jpeg" alt="hdBuns" />
+          <input type="number" min="0" id="hdBuns" name="hdBuns" /><br /><hr />
+     
+     <label for="bulla">Bulla Cake</label> 
+     <img src="bulla.jpeg" alt="bulla" />
+          <input type="number" min="0" id="bulla" name="bulla" />
+            <select id="bullaType" name="bullaType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="6 Pack">6 Pack</option>
+               <option value="Single">Single Pack</option>
+            </select><br /><hr />
+     
+     <p>Meat</p>
+     
+     <label for="chknThighLabel">Chicken Thighs/Muslo de Pollo</label> 
+     <img src="chknThigh.jpg" alt="chknThigh" />
+          <input type="number" min="0" id="chknThigh" name="chknThigh" /><br /><hr />
+     
+     <label for="chknLeg">Chicken Legs/Pierna de Pollo</label> 
+     <img src="chknLeg.jpeg" alt="ChknLeg" />
+          <input type="number" min="0" id="chknLeg" name="chknLeg" /><br /><hr />
+     
+     <label for="porkPull">Pork &#39;N Pull</label> 
+     <img src="porknpull.png" alt="porkPull" />
+          <input type="number" min="0" id="porkPull" name="porkPull" /><br /><hr />
+     
+     <label for="porkLoins">Pork Loins/Lomos de Cerdo</label> 
+     <img src="porkloins.png" alt="porkLoins" />
+          <input type="number" min="0" id="porkLoins" name="porkLoins" /><br /><hr />
+     
+     <label for="chzSausage">Cheese Sausages/Salchicha de Queso</label> 
+     <img src="cheeseSausage.png" alt="chzSaus" />
+          <input type="number" min="0" id="chzSausage" name="chzSausage" /><br /><hr />
+     
+     <label for="smokies">Smokies</label> 
+     <img src="smokies.png" alt="smokies" />
+          <input type="number" min="0" id="smokies" name="smokies" /><br /><hr />
+     
+     <label for="chknSausage">Chicken Sausage/Salchicha de Pollo</label> 
+     <img src="chknDogs.png" alt="chknSausage" />
+          <input type="number" min="0" id="chknSausage" name="chknSausage" /><br /><hr />
+     
+     <label for="weiners">Weiners/Hotdogs</label> 
+     <img src="weiners.png" alt="weiners" />
+          <input type="number" min="0" id="weiners" name="weiners" /><br /><hr />
+     
+     <label for="tilapia">Tilapia</label> 
+     <img src="tilapia.png" alt="tilapia" />
+          <input type="number" min="0" id="tilapia" name="tilapia" /><br /><hr />
+     
+     <label for="Beef">Beef/Carne</label> 
+     <img src="beef.jpeg" alt="beef" />
+          <input type="number" min="0" id="beef" name="beef" />
+     <select id="beefType" name="beefType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Stewing">Stewing Beef</option>
+               <option value="Roast">Roast</option>
+               <option value="Steaks">Steaks</option>
+            </select><br /><hr />
+     
+     <label for="halalDogs">Halal Chicken Weiners</label> 
+     <img src="halal%20dogs.png" alt="halalDogs" />
+          <input type="number" min="0" id="halalDogs" name="halalDogs" /><br /><hr />
+     
+     <label for="baconChed">Bacon &amp; Chedder Sausages</label> 
+     <img src="bacChedSaus.png" alt="baconChed" />
+          <input type="number" min="0" id="baconChed" name="baconChed" /><br /><hr />
+     
+     <label for="cod">Salt Fish/Cod</label> 
+     <img src="cod.jpeg" alt="cod" />
+          <input type="number" min="0" id="cod" name="cod" /><br /><hr />
+     
+     <p>Aisle 1</p>
+     
+     <label for="eggs">Eggs/Huevos</label> 
+     <img src="eggs.png" alt="eggs" />
+          <input type="number" min="0" id="eggs" name="eggs" /><br /><hr />
+     
+     <label for="cheese">Sliced Chedder Cheese/Queso en Lonchas</label> 
+     <img src="cheese.png" alt="cheese" />
+          <input type="number" min="0" id="cheese" name="cheese" /><br /><hr />
+     
+     <label for="margerine">Margerine/Margarina</label> 
+     <img src="margerine.png" alt="margerine" />
+          <input type="number" min="0" id="msrgerine" name="margerine" /><br /><hr />
+     
+     <label for="yogurt">Yogurt/Yogur</label> 
+     <img src="yogurt.png" alt="yogurt" />
+          <input type="number" min="0" id="yogurt" name="yogurt" /><br /><hr />
+     
+     <label for="bigOJ">Big Orange Juice/Gran Jugo de Naranja</label> 
+     <img src="bigOJ.png" alt="bigOJ" />
+          <input type="number" min="0" id="bigOJ" name="bigOJ" /><br /><hr />
+     
+     <label for="almondMilk">Almond Milk/Leche de Almendras</label> 
+     <img src="almondMilk.png" alt="almondMilk" />
+          <input type="number" min="0" id="almondMilk" name="almondMilk" />
+     <select id="milkType" name="milkType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Original">Original</option>
+               <option value="Vanilla">Vanilla</option>
+            </select><br /><hr />
+     
+     <label for="whitener">Coffee Whitener/Blanqueador de Café</label> 
+     <img src="whitener.jpeg" alt="whitener" />
+          <input type="number" min="0" id="whitener" name="whitener" /><br /><hr />
+     
+     <label for="cartonOJ">Orange Juice Carton/Cartón de Jugo de Naranja</label> 
+     <img src="cartonOJ.png" alt="cartonOJ" />
+          <input type="number" min="0" id="cartonOJ" name="cartonOJ" /><br /><hr />
+     
+     <label for="boost">Boost</label> 
+     <img src="boost.png" alt="boost" />
+          <input type="number" min="0" id="boost" name="boost" /><br /><hr />
+     
+     <label for="mangoJuice">Mango Juice/Jugo de Mango</label> 
+     <img src="mangoJuice.png" alt="mangoJuice" />
+          <input type="number" min="0" id="mangoJuice" name="mangoJuice" /><br /><hr />
+     
+     <label for="oats">Oats/Avena</label> 
+     <img src="oats.jpeg" alt="oats" />
+        <input type="number" min="0" id="oats" name="oats" /><br /><hr /> 
+     
+     <label for="pomJuice">Pomegranate Juice/Jugo de Granada</label> 
+     <img src="pomJuice.jpg" alt="pomJuice" />
+     <input type="number" min="0" id="pomJuice" name="pomJuice" /><br /><hr />
+     
+     <label for="milk">2&#37; Milk/Leche</label> 
+     <img src="milk.png" alt="milk" />
+          <input type="number" min="0" id="milk" name="milk" /><br /><hr />
+     
+     <label for="coffeeMate">Vanilla Coffee Mate</label> 
+     <img src="coffeeMate.png" alt="coffeeMate" />
+          <input type="number" min="0" id="coffeeMate" name="coffeeMate" /><br /><hr />
+     
+     <label for="pb">Peanut Butter/Mantequilla de Maní</label> 
+     <img src="peanutButter.png" alt="pb" />
+          <input type="number" min="0" id="pb" name="pb" />
+     <select id="pbType" name="pbType">
+     <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="smooth">Smooth</option>
+               <option value="crunchy">Crunchy</option>
+            </select><br /><hr />
+     
+     <p>Aisle 2</p>
+     
+     <label for="coffee">Nescafe Rich Coffee/Café</label> 
+     <img src="coffee.png" alt="coffee" />
+          <input type="number" min="0" id="coffee" name="coffee" /><br /><hr />
+     
+     <label for="tea">Peppermint Tea/Té de Menta</label> <img src="peppermintTea.jpeg" alt="tea" />
+          <input type="number" min="0" id="tea" name="tea" /><br /><hr />
+     
+     <label for="guavaNectar">Guava Nectar/Néctar de guayaba</label> 
+     <img src="guavaNec.jpeg" alt="guavaNectar" />
+          <input type="number" min="0" id="guavaNectar" name="guavaNectar" /><br /><hr />
+     
+     <label for="pearNec">Pear Nectar/Néctar de Pera</label> 
+     <img src="pearNectar.png" alt="pearNec" />
+          <input type="number" min="0" id="pearNec" name="pearNec" /><br /><hr />
+     
+     <label for="grapeJuice">Grape Juice/Jugo de Uva</label> 
+     <img src="grapeJuice.png" alt="grapeJuice" />
+          <input type="number" min="0" id="grapeJuice" name="grapeJuice" /><br /><hr />
+     
+     <label for="hotChoc">Hot Chocolate Powder/Polvo de Chocolate Caliente</label> 
+     <img src="hcPowder.png" alt="hotChoc" />
+          <input type="number" min="0" id="hotChoc" name="hotChoc" /><br /><hr />
+     
+     <p>Aisle 3</p>
+     
+     <label for="sardines">Sardines/Sardinas</label> 
+     <img src="sardines.png" alt="sardines" />
+          <input type="number" min="0" id="sardines" name="sardines" />
+     <select id="sardineType" name="sardineType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Lemon">Lemon</option>
+               <option value="Hot Pepper">Hot Pepper</option>
+            </select><br /><hr />
+     
+     <label for="sugar">Sugar/Azúcar</label> 
+     <img src="sugar.png" alt="sugar" />
+          <input type="number" min="0" id="sugar" name="sugar" /><br /><hr />
+     
+     <label for="salt">Table Salt/Sal</label> 
+     <img src="salt.png" alt="salt" />
+          <input type="number" min="0" id="salt" name="salt" /><br /><hr />
+     
+     <label for="ketchup">Ketchup</label> 
+     <img src="ketchup.png" alt="ketchup" />
+          <input type="number" min="0" id="ketchup" name="ketchup" /><br /><hr />
+     
+     <label for="bbqSeason">Barbecue Chicken Seasoning</label> 
+     <img src="bbqChknSeasoning.png" alt="bbqSeason" />
+          <input type="number" min="0" id="bbqSeason" name="bbqSeason" /><br /><hr />
+     
+     <label for="ribSauce">Chicken n Rib BBQ Sauce</label> 
+     <img src="chknRibSauce.png" alt="ribSauce" />
+          <input type="number" min="0" id="ribSauce" name="ribSauce" /><br /><hr />
+     
+     <label for="soySauce">Soy Sauce/Salsa de Soja</label> 
+     <img src="soy.png" alt="soySauce" />
+          <input type="number" min="0" id="" name="soySauce" /><br /><hr />
+     
+     <label for="mayo">Mayonaisse/Mayonesa</label> 
+     <img src="mayo.png" alt="mayo" />
+          <input type="number" min="0" id="mayo" name="mayo" /><br /><hr />
+     
+     <label for="flour">All Purpose Flour/Harina pPra Todo Uso</label> 
+     <img src="flour.png" alt="flour" />
+          <input type="number" min="0" id="flour" name="flour" /><br /><hr />
+     
+     <label for="cornMeal">Corn Meal/Harina de Maíz</label> 
+     <img src="cornMeal.png" alt="cornMeal" />
+          <input type="number" min="0" id="cornMeal" name="cornMeal" /><br /><hr />
+     
+     <label for="oil">Canola Oil/Aceite de canola</label> 
+     <img src="canolaOil.png" alt="oil" />
+          <input type="number" min="0" id="oil" name="oil" /><br /><hr />
+     
+     <label for="conMilk">Condensed Milk/Leche Condensada</label> 
+     <img src="conMilk.jpeg" alt="conMilk" />
+          <input type="number" min="0" id="conMilk" name="conMilk" /><br /><hr />
+     
+     <label for="wwFlour">Whole Wheat Flour/Harina de Trigo Integral</label> 
+     <img src="wwFlour.jpeg" alt="wwFlour" />
+          <input type="number" min="0" id="wwFlour" name="wwFlour" /><br /><hr />
+     
+     <p>Aisle 4</p>
+     
+     <label for="tomBeans">Baked Beans in Tomato Sauce/Frijoles en Salsa de Tomate</label> 
+     <img src="tomBeans.jpeg" alt="tomBeans" />
+          <input type="number" min="0" id="tomBeans" name="tomBeans" /><br /><hr />
+     
+     <label for="chaoMein">Chao Mein</label> 
+     <img src="chaoMein.png" alt="chaoMein" />
+          <input type="number" min="0" id="chaoMein" name="chaoMein" /><br /><hr />
+     
+     <label for="rice">Rice/Arroz</label> 
+     <img src="rice.png" alt="rice" />
+          <input type="number" min="0" id="rice" name="rice" /><br /><hr />
+     
+     <label for="spag">Spaghetti/Espaguetis</label> 
+     <img src="spag.png" alt="spag" />
+          <input type="number" min="0" id="spag" name="spag" /><br /><hr />
+     
+     <label for="shellNoods">Shell Noodles/Fideos con Cáscara</label> 
+     <img src="shellNoods.png" alt="shellNoods" />
+          <input type="number" min="0" id="shellNoods" name="shellNoods" /><br /><hr />
+     
+     <label for="mrNood">Mr. Noodle</label> 
+     <img src="mrNoods.jpeg" alt="mrNood" />
+          <input type="number" min="0" id="mrNood" name="mrNood" />
+     <select id="mrNoodType" name="mrNoodType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Vegetable">Vegetable</option>
+         <option value="Chicken">Chicken</option>
+               <option value="Spicy Chicken">Spicy Chicken</option>
+         <option value="Beef">Beef</option>
+         <option value="Spicy Beef">Spicy Beef</option>
+            </select><br /><hr />
+     
+     <p>Aisle 5</p>
+     
+     <label for="nestle">Nestle Bottled Water/Agua embotellada</label> 
+     <img src="nestle.jpg" alt="nestle" />
+          <input type="number" min="0" id="nestle" name="nestle" />
+     <select id="nestType" name="nestType">
+     <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="12 Bottles">12 Pack</option>
+               <option value="24 Bottles">24 Pack</option>
+            </select><br /><hr />
+     
+     <label for="compWater">Compliments Bottled Water/Agua embotellada</label> 
+     <img src="complimentsh2o.png" alt="compWater" />
+          <input type="number" min="0" id="compWater" name="compWater" />
+     <select id="compType" name="compType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="12 Bottles">12 Pack</option>
+               <option value="24 Bottles">24 Pack</option>
+            </select><br /><hr />
+     
+     <label for="aquafina">Aquafina Bottled Water/Agua embotellada</label> 
+     <img src="aquafina.jpeg" alt="aquafina" />
+          <input type="number" min="0" id="aquafina" name="aquafina" />
+     <select id="aquaType" name="aquaType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="12 Bottles">12 Pack</option>
+               <option value="24 Bottles">24 Pack</option>
+            </select><br /><hr /> 
+     
+     <label for="smallOJ">Orange Juice Small Case/Caja Pequeña de Jugo de Naranja</label> 
+     <img src="smallOJ.png" alt="smallOJ" />
+          <input type="number" min="0" id="smallOJ" name="smallOJ" /><br /><hr />
+     
+     <label for="smallApple">Apple Juice Small Case/Caja Pequeña de Jugo de Manzana</label> 
+     <img src="smallAppleJ.png" alt="smallApple" />
+          <input type="number" min="0" id="smallApple" name="smallApple" /><br /><hr />
+     
+     <label for="coke">Coke</label> 
+     <img src="coke.jpeg" alt="coke" />
+          <input type="number" min="0" id="coke" name="coke" />
+     <select id="cokeType" name="cokeType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="12 Cans">12 Pack</option>
+               <option value="24 Cans">24 Pack</option>
+         <option value="6 Mini Bottles">6 Pack Mini Bottles</option>
+         <option value="6 Bottles">6 Pack Bottles</option>
+            </select><br /><hr />
+     
+     <label for="seven">7up</label> 
+     <img src="7up.jpeg" alt="seven" />
+          <input type="number" min="0" id="seven" name="seven" />
+     <select id="sevenType" name="sevenType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="12 Cans">12 Pack</option>
+               <option value="24 Cans">24 Pack</option>
+            </select><br /><hr />
+     
+     <label for="monster">Monster Energy Drink 4-pack</label> 
+     <img src="monster.jpeg" alt="monster" />
+          <input type="number" min="0" id="moster" name="monster" /><br /><hr />
+     
+     <label for="powerade">Powerade</label> 
+     <img src="powerade.jpeg" alt="powerade" />
+          <input type="number" min="0" id="powerade" name="powerade" />
+            <select id="powerType" name="powerType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Single">Single</option>
+                <option value="6 Pack">6 Pack</option>
+               <option value="24 Pack">24 Pack</option>
+            </select>
+            <select id="pACol" name="pACol">
+               <option value="-">&lt;SELECT COLOUR&gt;</option>
+               <option value="Purple">Purple</option>
+                <option value="Blue">Blue</option>
+               <option value="Red">Red</option>
+               <option value="Orange">Orange</option>
+                <option value="Green">Green</option>
+                <option value="Assorted">Assorted</option>
+            </select><br /><hr />
+     
+     <label for="gatorade">Gatorade</label> 
+     <img src="gatorade.jpeg" alt="gatorade" />
+          <input type="number" min="0" id="gatorade" name="gatorade" />
+            <select id="gatorType" name="gatorType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Single">Single</option>
+                <option value="6 Pack">6 Pack</option>
+               <option value="24 Pack">24 Pack</option>
+            </select>
+            <select id="gACol" name="gACol">
+               <option value="-">&lt;SELECT COLOUR&gt;</option>
+               <option value="Purple">Purple</option>
+                <option value="Blue">Blue</option>
+               <option value="Red">Red</option>
+               <option value="Orange">Orange</option>
+                <option value="Green">Green</option>
+                <option value="Assorted">Assorted</option>
+            </select><br /><hr />
+     
+     <p>Aisle 6</p>
+     
+     <label for="cornBeef">Corned Beef/Carne en Lata</label> 
+     <img src="cornBeef.jpeg" alt="cornBeef" />
+          <input type="number" min="0" id="cornBeef" name="cornBeef" /><br /><hr />
+     
+     <label for="mackerel">Mackerel/Caballa</label> 
+     <img src="makeral.png" alt="mackerel" />
+          <input type="number" min="0" id="mackerel" name="mackerel" />
+        <select id="macType" name="macType">
+            <option value="-">&lt;SELECT TYPE&gt;</option>
+            <option value="Red">Red Can</option>
+            <option value="Green">Green Can</option>
+        </select><br /><hr />
+     
+     <label for="cracklings">Pork Cracklings/Chicharrón de Cerdo</label> 
+     <img src="cracklings.png" alt="cracklings" />
+          <input type="number" min="0" id="cracklings" name="cracklings" /><br /><hr />
+     
+     <label for="refried">Refried Beans/Frijoles refritos</label> 
+     <img src="refried.png" alt="refried" />
+          <input type="number" min="0" id="refried" name="refried" /><br /><hr />
+     
+     <label for="blackBeans">Black Beans/Frijoles negros</label> 
+     <img src="blackBeans.png" alt="blackBeans" />
+          <input type="number" min="0" id="blackBeans" name="blackBeans" /><br /><hr />
+     
+     <label for="ltRedBeans">Light Red Beans/Frijoles Rojos Claros</label> 
+     <img src="redBeans.png" alt="ltRedBeans" />
+          <input type="number" min="0" id="ltRedBeans" name="ltRedBeans" /><br /><hr />
+     
+     <label for="drkRedBeans">Dark Red Beans/Frijoles Rojos Oscuros</label> 
+     <img src="redBeans.png" alt="drkRedBeans" />
+          <input type="number" min="0" id="drkRedBeans" name="drkRedBeans" /><br /><hr />
+     
+     <label for="chknSoup">Chicken Soup Mix/Mezcla de Sopa de pPllo</label> 
+     <img src="chknNoodSoup.png" alt="chknSoup" />
+          <input type="number" min="0" id="chknSoup" name="chknSoup" /><br /><hr />
+     
+     <label for="pepperSauce">Hot Pepper Sauce/Salsa Picante</label> 
+     <img src="peppersauce.png" alt="pepperSauce" />
+          <input type="number" min="0" id="pepperSauce" name="pepperSauce" /><br /><hr />
+     
+     <label for="cRSeasoning">Cool Runnings All Purpose Seasoning/Condimento Para Todo Uso</label> 
+     <img src="crseasoning.png" alt="cRSeasoning" />
+          <input type="number" min="0" id="cRSeasoning" name="cRSeasoning" /><br /><hr />
+     
+     <label for="maseca">Maseca</label> 
+     <img src="maseca.png" alt="maseca" />
+          <input type="number" min="0" id="maseca" name="maseca" /><br /><hr />
+     
+     <label for="curry">Cool Runnings Curry Powder</label> 
+     <img src="curryPowder.png" alt="curry" />
+          <input type="number" min="0" id="curry" name="curry" /><br /><hr />
+     
+     <label for="ruskCake">Crispy Rusk Cake</label> 
+     <img src="ruskCake.png" alt="ruskCake" />
+          <input type="number" min="0" id="ruskCake" name="ruskCake" /><br /><hr />
+     
+     <label for="waterCrackers">Water Crackers</label> 
+     <img src="waterCrackers.png" alt="waterCrackers" />
+          <input type="number" min="0" id="waterCrackers" name="waterCrackers" /><br /><hr />
+     
+<!--
+     <label for="horchata">KLASS Aguas Frescas Horchata</label> 
+     <img src="horchatta.png" alt="horchata" />
+          <input type="number" min="0" id="horchata" name="horchata" /><br /><hr />
+     
+-->
+     <label for="milo">Milo</label> 
+     <img src="milo.jpeg" alt="milo" />
+          <input type="number" min="0" id="milo" name="milo" /><br /><hr />
+     
+     <label for="browning">Browning</label> 
+     <img src="browning.png" alt="browning" />
+          <input type="number" min="0" id="browning" name="browning" /><br /><hr />
+     
+<!--
+     <label for="islandPunch">Tampico Island Punch</label> 
+     <img src="fruitPunch.png" alt="islandPunch" />
+          <input type="number" min="0" id="islandPunch" name="islandPunch" /><br /><hr />
+-->
+     
+     <label for="coconutMilk">Powdered Coconut Milk/Leche de Coco en Polvo</label> 
+     <img src="powderCoconut.png" alt="coconutMilk" />
+          <input type="number" min="0" id="coconutMilk" name="coconutMilk" /><br /><hr />
+     
+     <label for="cREnergy">Cool Runnings Energy</label> 
+     <img src="crEnergy.png" alt="cREnergy" />
+          <input type="number" min="0" id="cREnergy" name="cREnergy" /><br /><hr />
+     
+     <label for="ting">Ting</label> 
+     <img src="ting.png" alt="ting" />
+          <input type="number" min="0" id="ting" name="ting" /><br /><hr />
+     
+     <label for="irishMoss">Irish Moss</label> 
+     <img src="irishMiss.png" alt="irishMoss" />
+          <input type="number" min="0" id="irishMoss" name="irishMoss" /><br /><hr />
+     
+     <label for="pnutPunch">Peanut Punch</label> 
+     <img src="peanutPunch.png" alt="pnutPunch" />
+          <input type="number" min="0" id="pnutPunch" name="pnutPunch" /><br /><hr />
+     
+     <label for="islandSoda">Island Soda</label> 
+     <img src="islansSoda.png" alt="islandSoda" />
+          <input type="number" min="0" id="islandSoda" name="islandSoda" /><br /><hr />
+     
+     <label for="shirley">Shirley</label> 
+     <img src="shirley.jpeg" alt="shirley" />
+     <input type="number" min="0" id="shirley" name="shirley" />
+     <select id="shirleyType" name="shirleyType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Red">Red</option>
+         <option value="Green">Green</option>
+            </select><br /><hr />
+     
+     <label for="vitamalt">Vitamalt</label> 
+     <img src="vitamalt.jpeg" alt="vitamalt" />
+          <input type="number" min="0" id="vitamalt" name="vitamalt" /><br /><hr />
+     
+     <label for="tigermalt">Tiger Malt</label> 
+     <img src="tigermalt.jpeg" alt="tigermalt" />
+          <input type="number" min="0" id="tigermalt" name="tigermalt" /><br /><hr />
+     
+     <label for="tropRhythm">Tropical Rhythms</label>
+     <img src="tropRhythm.jpeg" alt="tropRhythm" />
+          <input type="number" min="0" id="tropRhythm" name="tropRhythm" /><br /><hr />
+     
+     <label for="cocowater">Coconut Water - Can/Agua de Coco</label> 
+     <img src="coconutWater.jpeg" alt="cocowater" />
+          <input type="number" min="0" id="cocowater" name="cocowater" /><br /><hr />
+     
+     <p>Aisle 7</p>
+     
+     <label for="tylenol">Tylenol</label> 
+     <img src="tylenol.png" alt="tylenol" />
+          <input type="number" min="0" id="tylenol" name="tylenol" /><br /><hr />
+     
+     <label for="toothpaste">Toothpaste/Pasta Dental</label> 
+     <img src="toothpaste.png" alt="toothepaste" />
+          <input type="number" min="0" id="toothpaste" name="toothpaste" /><br /><hr />
+     
+     <label for="toothbrush">Toothbrush</label> 
+     <img src="toothbrush.png" alt="toothbrush" />
+          <input type="number" min="0" id="toothbrush" name="toothbrush" /><br /><hr />
+     
+     <label for="babyOil">Baby Oil/Aceite de bebé</label> 
+     <img src="babyOil.png" alt="babyOil" />
+          <input type="number" min="0" id="babyOil" name="babyOil" /><br /><hr />
+     
+     <label for="barSoap">Irish Springs Bars of Soap/Barra de Jabón</label> 
+     <img src="barsoap.png" alt="barSoap" />
+          <input type="number" min="0" id="barSoap" name="barSoap" /><br /><hr />
+     
+     <label for="bodyWash">Body Wash/Gel de Baño</label> 
+     <img src="bodyWash.jpeg" alt="bodyWash" />
+          <input type="number" min="0" id="bodyWash" name="bodyWash" /><br /><hr />
+     
+     <label for="sssTonic">SSS Tonic</label> 
+     <img src="ssstonic.png" alt="ssstonic" />
+          <input type="number" min="0" id="sssTonic" name="sssTonic" /><br /><hr />
+     
+     <label for="sponges">Sponges/Esponjas</label> 
+     <img src="sponges.png" alt="sponges" />
+          <input type="number" min="0" id="sponges" name="sponges" /><br /><hr />
+     
+     <label for="dishSoap">Dish Soap/Jabón Para Platos</label> 
+     <img src="dishSoap.png" alt="dishSoap" />
+          <input type="number" min="0" id="dishSoap" name="dishSoap" /><br /><hr />
+     
+     <label for="listerine">Listerine</label> 
+     <img src="listerine.jpeg" alt="listerine" />
+          <input type="number" min="0" id="listerine" name="listerine" /><br /><hr />
+     
+     <p>Aisle 8</p>
+     
+     <label for="vim">Vim Cream Cleaner</label> 
+     <img src="vim.png" alt="vim" />
+          <input type="number" min="0" id="vim" name="vim" /><br /><hr />
+     
+     <label for="pinesol">Pine Sol</label> 
+     <img src="pinesol.png" alt="pinesol" />
+          <input type="number" min="0" id="pinesol" name="pinesol" /><br /><hr />
+     
+     <label for="fantastik">Fantastik Spray</label> 
+     <img src="fantastik.png" alt="fantastik" />
+          <input type="number" min="0" id="fantastik" name="fantastik" /><br /><hr />
+     
+     <label for="paperTowels">Paper Towels/Toallas de Papel</label> 
+     <img src="paperTowels.jpeg" alt="paperTowels" />
+          <input type="number" min="0" id="paperTowels" name="paperTowels" /><br /><hr />
+     
+     <label for="garbage">Garbage Bags/Bolsas de Basura</label> 
+     <img src="garbage.jpeg" alt="garbage" />
+          <input type="number" min="0" id="garbage" name="garbage" /><br /><hr />
+     
+     <label for="laundry">Laundry Soap/Detergente de Ropa</label> 
+     <img src="laundryLiquid.jpeg" alt="laundryLiquid" />
+     <img src="laundryPowder.jpeg" alt="laundryPowder" />
+          <input type="number" min="0" id="laundry" name="laundry" />
+     <select id="laundryType" name="laundryType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="Liquid">Liquid/Líquido</option>
+         <option value="Powder">Powder/Polvo</option>
+            </select><br /><hr />
+     
+     <label for="bleach">Bleach/Blanqueador</label> 
+     <img src="bleach.jpeg" alt="bleach" />
+          <input type="number" min="0" id="bleach" name="bleach" /><br /><hr />
+     
+     <label for="kleenex">Tissues(Kleenex)/Tejidos</label> 
+     <img src="kleenex.jpeg" alt="kleenex" />
+          <input type="number" min="0" id="kleenex" name="kleenex" /><br /><hr />
+     
+     <label for="lysol">Lysol Wipes/el Limpión</label> 
+     <img src="lysol.jpeg" alt="lysol" />
+          <input type="number" min="0" id="lysol" name="lysol" /><br /><hr />
+     
+     <label for="iceCream">Cookies &amp; Cream Ice Cream/Helado</label> 
+     <img src="iceCream.png" alt="iceCream" />
+          <input type="number" min="0" id="icecream" name="iceCream" /><br /><hr />
+     
+     <label for="corn">Frozen Corn/Maíz Congelado</label> 
+     <img src="corn.jpeg" alt="corn" />
+          <input type="number" min="0" id="corn" name="corn" /><br /><hr />
+     
+     <label for="peas">Frozen Peas/Guisantes Congelados</label> 
+     <img src="peas.jpeg" alt="peas" />
+          <input type="number" min="0" id="peas" name="peas" /><br /><hr />
+     
+     
+     <p>Beer/Cerveza</p>
+     
+     <label for="corona">Corona</label> 
+     <img src="corona.jpeg" alt="corona" />
+          <input type="number" min="0" id="corona" name="corona" />
+     <select id="coronaType" name="coronaType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="6 Bottles">6 Bottles</option>
+         <option value="12 Bottles">12 Bottles</option>
+               <option value="24 Bottles">24 Bottles</option>
+            </select><br /><hr />
+     
+     <label for="dragon">Dragon</label> 
+     <img src="dragon.jpeg" alt="dragon" />
+          <input type="number" min="0" id="dragon" name="dragon" />
+     <select id="dragonType" name="dragonType">
+               <option value="-">&lt;SELECT TYPE&gt;</option>
+               <option value="6 Bottles">6 Bottles</option>
+         <option value="12 Bottles">12 Bottles</option>
+         <option value="18 Bottles">18 Bottles</option>
+               <option value="24 Bottles">24 Bottles</option>
+            </select><br /><hr />
+     
+     <label for="guinness">Guinness</label> 
+     <img src="guinness.jpeg" alt="guinness" />
+          <input type="number" min="0" id="guinness" name="guinness" />
+            <select id="guinType" name="guinType">
+                <option value="-">&lt;SELECT TYPE&gt;</option>
+                <option value="6 Bottles">6 Bottles</option>
+                <option value="12 Bottles">12 Bottles</option>
+            </select><br /><hr />
+     
+     <label for="bud">Bud Light</label> 
+     <img src="bud.jpeg" alt="bud" />
+          <input type="number" min="0" id=""bud name="bud" />
+            <select id="budType" name="budType">
+                <option value="-">&lt;SELECT TYPE&gt;</option>
+                <option value="6 Bottles">6 Bottles</option>
+                <option value="12 Bottles">12 Bottles</option>
+                <option value="24 Bottles">24 Bottles</option>
+                <option value="28 Bottles">28 Bottles</option>
+            </select><br /><hr />
+     
+     <p>Cigarettes</p><hr />
+     
+     <label for="belmont">Belmont</label> 
+     <img src="belmont.jpeg" alt="belmont" />
+          <input type="number" min="0" id="belmont" name="belmont" /><br /><hr />
+     
+     <p>Not on List/No en la Lista</p>
+     
+     <label for="item1">Item/Articulo: </label> 
+     <input type="text" id="extra1" name="extra1" />
+      <label for="quan1">Quantity/Cantidad: </label> 
+     <input type="number" min="0" id="quan1" name="quan1" /><br /><hr />
+     
+     <label for="item2">Item/Articulo: </label> 
+     <input type="text" id="extra2" name="extra2" />
+      <label for="quan2">Quantity/Cantidad: </label> 
+     <input type="number" min="0" id="quan2" name="quan2" /><br /><hr />
+     
+     <label for="item3">Item/Articulo: </label> 
+     <input type="text" id="extra3" name="extra3" />
+      <label for="quan3">Quantity/Cantidad: </label> 
+     <input type="number" min="0" id="quan3" name="quan3" /><br /><hr />
+     
+     <label for="item4">Item/Articulo: </label> 
+     <input type="text" id="extra4" name="extra4" />
+      <label for="quan4">Quantity/Cantidad: </label>
+     <input type="number" min="0" id="quan4" name="quan4" /><br /><hr />
+     
+     <label for="item5">Item/Articulo: </label>
+     <input type="text" id="extra5" name="extra5" />
+      <label for="quan5">Quantity/Cantidad: </label>
+     <input type="number" min="0" id="quan5" name="quan5" /><br /><hr />
+     
+     <label for="item6">Item/Articulo: </label> 
+     <input type="text" id="extra6" name="extra6" />
+      <label for="quan6">Quantity/Cantidad: </label>
+     <input type="number" min="0" id="quan6" name="quan6" /><br /><hr /><br />
+     
+     <label for="moreInfo">Additional Comments/Comentarios Adicionales:</label> 
+     <textarea rows="4" id="moreInfo" name="moreInfo" draggable="false" cols="25"></textarea> <br /><hr />
+     
+     
+      
+<!--      <input type="reset" value="Start Over on This Page" name="reset" />-->
+      <input type="submit" value="Order/Orden" name="submit" />
+  </form>
+</body>
+</html>
+ 
